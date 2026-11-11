@@ -42,8 +42,8 @@ Build a CloudTAK plugin that <what it should do>. My CloudTAK checkout is at ~/C
 
 ### Claude.ai / Claude desktop
 
-Zip any folder under `plugins/cloudtak-plugin-kit/skills/` and upload it under Settings →
-Capabilities → Skills, or add the whole set to a Project.
+Zip any folder under `plugins/cloudtak-plugin-kit/skills/` and upload it as a custom skill in
+Settings. Start with `cloudtak-plugin-workflow`; it names the others.
 
 ### Other agents (Codex, Cursor, Copilot, Gemini CLI)
 
