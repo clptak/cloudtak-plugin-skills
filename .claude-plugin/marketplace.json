@@ -1,0 +1,16 @@
+{
+  "name": "cloudtak-plugin-skills",
+  "owner": {
+    "name": "Paul Clifton"
+  },
+  "metadata": {
+    "description": "Skills that take an agent from an idea to a shipped CloudTAK web plugin, grounded in the CloudTAK source rather than memory."
+  },
+  "plugins": [
+    {
+      "name": "cloudtak-plugin-kit",
+      "source": "./plugins/cloudtak-plugin-kit",
+      "description": "Interview, ground, decide, scaffold, build and ship a CloudTAK plugin."
+    }
+  ]
+}

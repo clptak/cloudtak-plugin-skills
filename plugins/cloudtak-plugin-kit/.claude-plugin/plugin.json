@@ -1,0 +1,9 @@
+{
+  "name": "cloudtak-plugin-kit",
+  "version": "0.1.0",
+  "description": "Interview, ground, decide, scaffold, build and ship a CloudTAK plugin. Every claim about CloudTAK is checked against a local CloudTAK checkout before code is written.",
+  "author": {
+    "name": "Paul Clifton"
+  },
+  "keywords": ["cloudtak", "tak", "plugin", "vue", "public-safety"]
+}

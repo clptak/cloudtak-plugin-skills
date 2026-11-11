@@ -1,0 +1,26 @@
+{
+    "name": "cloudtak-plugin-__SLUG__",
+    "version": "0.1.0",
+    "description": "__DESCRIPTION__",
+    "type": "module",
+    "private": true,
+    "license": "__LICENSE__",
+    "scripts": {
+        "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+        "test": "node --experimental-strip-types --test 'test/*.test.ts'"
+    },
+    "peerDependencies": {
+        "@tak-ps/cloudtak": "*",
+        "@tak-ps/vue-tabler": "*",
+        "@tabler/icons-vue": "*",
+        "maplibre-gl": "*",
+        "pinia": "*",
+        "vue": "*",
+        "vue-router": "*"
+    },
+    "devDependencies": {
+        "@tak-ps/cloudtak": "file:__CLOUDTAK_WEB_ROOT__",
+        "typescript": "^5.6.0",
+        "vue-tsc": "^2.1.10"
+    }
+}
